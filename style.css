@@ -1,0 +1,13 @@
+/* Adjusted for the color from the screenshot */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    color: #33FF33;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.terminal {
+    padding: 20px;
+    white-space: pre-wrap;
+}
