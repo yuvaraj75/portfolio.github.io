@@ -14,7 +14,7 @@ const terminalText = [
 
 let i = 0;
 const terminal = document.getElementById('terminal');
-const speed = 50; // Increased typing speed
+const speed = 90; // Increased typing speed
 
 function typeOut() {
     if (i < terminalText.length) {
