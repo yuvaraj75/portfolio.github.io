@@ -3,7 +3,7 @@ const terminalText = `root@yuvxraj_Hub:~# cd Portfolio/
 root@yuvxraj_Hub:~/Portfolio# cat about.txt
 Hello, Friend! Myself, YUVARAJ M.
 
-I'm an Aspiring Cybersecurity Enthusiast, who likes to explore Multiple Dimensions of Information Security and to work with Various Technologies in the field.
+I'm an Aspiring Cybersecurity Enthusiast, who likes to explore Multiple Dimensions of Information Security and to work with Various Technologies in this field.
 
 I developed a Huge interest, in the field of Cybersecurity at the age of 17 and working hard till now, to contribute something huge to the InfoSec Community.
 
@@ -28,7 +28,7 @@ root@yuvxraj_Hub:~/Portfolio# exit
 
 let i = 0;
 const terminal = document.getElementById('terminal');
-const speed = 65; // Typing speed
+const speed = 70; // Typing speed
 
 function typeOut() {
     if (i < terminalText.length) {
