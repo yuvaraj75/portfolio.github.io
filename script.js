@@ -1,3 +1,4 @@
+// script.js
 const terminalText = `root@yuvxraj_Hub:~# cd Portfolio/
 root@yuvxraj_Hub:~/Portfolio# cat about.txt
 Hello, Friend! Myself, YUVARAJ M.
@@ -31,15 +32,10 @@ const speed = 90; // Typing speed
 
 function typeOut() {
     if (i < terminalText.length) {
-        let char = terminalText.charAt(i);
-        if (char === '\n') {
-            terminal.innerHTML += '<br/>';
-        } else {
-            terminal.innerHTML += char;
-        }
+        terminal.textContent += terminalText.charAt(i);
         i++;
         setTimeout(typeOut, speed);
     }
 }
 
-document.body.onload = typeOut;
+document.body.onload = typeOut; // Start typing effect on page load
