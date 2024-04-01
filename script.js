@@ -1,6 +1,7 @@
 // script.js
 const terminalText = `root@yuvxraj_Hub:~# cd Portfolio/
 root@yuvxraj_Hub:~/Portfolio# cat about.txt
+
 Hello, Friend! Myself, YUVARAJ M.
 
 I'm an Aspiring Cybersecurity Enthusiast, who likes to explore Multiple Dimensions of Information Security and to work with Various Technologies in the field.
@@ -28,7 +29,7 @@ root@yuvxraj_Hub:~/Portfolio# exit
 
 let i = 0;
 const terminal = document.getElementById('terminal');
-const speed = 90; // Typing speed
+const speed = 100; // Typing speed
 
 function typeOut() {
     if (i < terminalText.length) {
