@@ -29,7 +29,8 @@ root@yuvxraj_Hub:~/Portfolio# exit
 
 let i = 0;
 const terminal = document.getElementById('terminal');
-const speed = 200; // Typing speed
+const speed = 50; // Increased typing speed
+
 
 function typeOut() {
     if (i < terminalText.length) {
